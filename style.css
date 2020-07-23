@@ -1,0 +1,46 @@
+body {
+  margin: 5%;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  background-color: #e9bcb7;
+  display: grid;
+  justify-content: center;
+}
+
+.title {
+  color: #06070e;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.entry-textbox {
+  background-color: #c5afa0;
+  width: 30em;
+  height: 20em;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  border: unset;
+  border-radius: 15px;
+}
+
+.entry-textbox:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px #000;
+}
+
+#entryForm .button {
+  border: 0.25px solid #29524a;
+  border-radius: 15px;
+  padding: 5px 16px;
+  margin-left: 76%;
+  background-color: #c5afa0;
+}
+
+#entries {
+  background: #94a187;
+  color: #06070e;
+  padding: 2em;
+  max-width: 30em;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 1em;
+}
