@@ -28,7 +28,7 @@ body {
 }
 
 #entryForm .button {
-  border: 0.25px solid #29524a;
+  border: 0.2px solid #29524a;
   border-radius: 15px;
   padding: 5px 16px;
   margin-left: 76%;
@@ -43,4 +43,16 @@ body {
   border: unset;
   border-radius: 25px;
   margin-top: 1em;
+}
+
+.display-entry-button {
+  margin: 0.2em;
+}
+
+.entries-nav {
+  padding-bottom: 1em;
+}
+
+.display-entry-button:hover {
+  cursor: pointer;
 }
